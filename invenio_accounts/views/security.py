@@ -32,11 +32,8 @@ from .settings import blueprint
     # NOTE: Menu item text (icon replaced by a user icon).
     _(
         '%(icon)s Security',
-        icon=make_lazy_string(
-            lambda:
-            '<i class="{shield}".format(\
-            shield=current_theme_icons.shield)></i>'
-        ),
+        icon='<i class="shield alternate icon"></i>'
+
     ),
     order=2,
 )

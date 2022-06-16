@@ -66,7 +66,7 @@ def init_menu():
             _(
                 '%(icon)s Change password',
                 icon=(
-                    '<i class="{key}".format(key=current_theme_icons.key)></i>'
+                    '<i class="edit icon"></i>'
                 ),
             ),
             order=1,
