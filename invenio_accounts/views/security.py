@@ -30,11 +30,8 @@ from .settings import blueprint
     blueprint,
     'settings.security',
     # NOTE: Menu item text (icon replaced by a user icon).
-    _(
-        '%(icon)s Security',
-        icon='<i class="shield alternate icon"></i>'
-
-    ),
+    'Security',
+    icon='shield alternate',
     order=2,
 )
 @register_breadcrumb(blueprint, 'breadcrumbs.settings.security', _('Security'))
